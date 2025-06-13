@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 15000,
       descripcion: "10 unidades de empanadas rellenas de Carne Molida.",
       categoria: "Bandejas",
-      imagen: "img/empanadas-carnemolida.webp"
+      imagen: "empanadas-carnemolida.webp"
     },
     {
       nombre: "Carimañolas (queso)",
