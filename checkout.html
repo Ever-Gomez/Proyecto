@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Checkout - Masas la Belleza</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Resumen de tu Pedido</h1>
+  </header>
+
+  <main class="checkout-container" id="checkout-container">
+  </main>
+
+  <footer class="footer">
+    <button class="btn-confirm" id="btn-confirm">Confirmar y Pagar</button>
+    <a href="index.html" class="btn-confirm" style="background-color: var(--accent); text-align: center;">Volver a la Tienda</a>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("checkout-container");
+      const btnConfirm = document.getElementById("btn-confirm");
+      const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+
+      if (cartItems.length === 0) {
+        container.innerHTML = "<p style='padding:1rem'>Tu carrito está vacío.</p>";
+        btnConfirm.disabled = true;
+        return;
+      }
+
+      let total = 0;
+      cartItems.forEach(item => {
+        const subtotal = item.precio * item.cantidad;
+        total += subtotal;
+
+        const div = document.createElement("div");
+        div.classList.add("item");
+        div.style.padding = "1rem";
+        div.style.borderBottom = "1px solid #eee";
+        div.innerHTML = `
+          <h3>${item.nombre}</h3>
+          <p>Cantidad: ${item.cantidad}</p>
+          <p>Precio unitario: $${item.precio.toLocaleString()}</p>
+          <p><strong>Subtotal: $${subtotal.toLocaleString()}</strong></p>
+        `;
+        container.appendChild(div);
+      });
+
+      const totalDiv = document.createElement("div");
+      totalDiv.classList.add("total");
+      totalDiv.style.padding = "1rem";
+      totalDiv.style.fontWeight = "bold";
+      totalDiv.innerHTML = `<p>Total: $${total.toLocaleString()}</p>`;
+      container.appendChild(totalDiv);
+
+      btnConfirm.addEventListener("click", () => {
+        alert("¡Gracias por tu compra! Tu pedido ha sido registrado.");
+        localStorage.removeItem("cartItems");
+        window.location.href = "index.html";
+      });
+    });
+  </script>
+</body>
+</html>

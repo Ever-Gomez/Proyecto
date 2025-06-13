@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Masas la Belleza - Productos Artesanales</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Barra superior de contacto -->
+  <div class="top-bar">
+    <span>📍 Soledad, Colombia</span>
+    <span>📞 300-547-0021</span>
+    <span>✉️ contacto@masaslabelleza.com</span>
+  </div>
+
+  <!-- Encabezado con logo y menú -->
+  <header>
+    <div class="logo">
+      <img src="imagenes/Logo.png" alt="Masas la Belleza" class="logo-img" />
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú">&#9776;</button>
+    <nav class="menu" id="menu">
+      <ul>
+        <li onclick="filterCategory('Masas')">Masas</li>
+        <li onclick="filterCategory('Líquidos')">Líquidos</li>
+        <li onclick="filterCategory('Bandejas')">Bandejas</li>
+        <li onclick="filterCategory('Todos')">Todos</li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="cart" id="cart">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <!-- Productos -->
+  <main>
+    <div class="main-wrapper">
+      <section class="products" id="products"></section>
+    </div>
+  </main>
+
+  <!-- Carrito lateral -->
+  <aside class="cart-panel" id="cart-panel">
+    <h3>Carrito</h3>
+    <ul id="cart-items"></ul>
+    <a href="checkout.html" class="btn-confirm">Ir a Pagar</a>
+    <button id="close-cart">Cerrar</button>
+  </aside>
+
+  <!-- Footer profesional -->
+  <footer class="footer-pro">
+    <div class="footer-content">
+      <div class="footer-column">
+        <h3>Masas la Belleza</h3>
+        <p>📍 Soledad, Colombia</p>
+        <p>📞 300-547-0021</p>
+        <p>✉️ contacto@masaslabelleza.com</p>
+      </div>
+      <div class="footer-column">
+        <h4>Productos</h4>
+        <ul>
+          <li><a href="#">Masas</a></li>
+          <li><a href="#">Líquidos</a></li>
+          <li><a href="#">Bandejas</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="checkout.html">Carrito</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Masas la Belleza. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
