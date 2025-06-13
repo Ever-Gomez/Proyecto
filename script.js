@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 6000,
       descripcion: "Suero costeño artesanal de 0.5 litros.",
       categoria: "Líquidos",
-      imagen: "suero2.0.jpeg"
+      imagen: "suero2.0.jpg"
     },
     {
       nombre: "Empanadas (queso)",
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 15000,
       descripcion: "10 unidades de empanadas rellenas de pollo.",
       categoria: "Bandejas",
-      imagen: "imagenes/empanadas-pollo.jpeg"
+      imagen: "empanadas-pollo.jpeg"
     },
      {
       nombre: "Empanadas (Carne Molida)",
@@ -82,14 +82,14 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 15000,
       descripcion: "10 unidades de carimañolas con pollo.",
       categoria: "Bandejas",
-      imagen: "imagenes/carimañolas-pollo.jpg"
+      imagen: "carimañolas-pollo.jpg"
     },
     {
       nombre: "Carimañolas (Carne Molida)",
       precio: 15000,
       descripcion: "10 unidades de carimañolas con Carne Molida.",
       categoria: "Bandejas",
-      imagen: "imagenes/carimañolas-carnemolida.jpeg"
+      imagen: "img/carimañolas-carnemolida.jpeg"
     }
   ];
 
