@@ -5,21 +5,21 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 2500,
       descripcion: "1.5 libras de masa de maíz blanco.",
       categoria: "Masas",
-      imagen: "img/Masa blanca.jpeg"
+      imagen: "Masa blanca.jpeg"
     },
     {
       nombre: "Masa de maíz amarillo",
       precio: 2500,
       descripcion: "1.5 libras de masa de maíz amarillo.",
       categoria: "Masas",
-      imagen: "img/Masa amarilla.webp"
+      imagen: "Masa amarilla.webp"
     },
     {
       nombre: "Masa de yuca",
       precio: 3000,
       descripcion: "1.25 libras de masa de yuca lista para usar.",
       categoria: "Masas",
-      imagen: "img/Masa yuca.png"
+      imagen: "Masa yuca.png"
     },
     {
       nombre: "Agua de maíz (1.5L)",
