@@ -5,91 +5,91 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 2500,
       descripcion: "1.5 libras de masa de maíz blanco.",
       categoria: "Masas",
-      imagen: "img/Masa blanca.jpeg" // Ruta corregida
+      imagen: "Masa blanca.jpeg" // Ruta corregida
     },
     {
       nombre: "Masa de maíz amarillo",
       precio: 2500,
       descripcion: "1.5 libras de masa de maíz amarillo.",
       categoria: "Masas",
-      imagen: "img/Masa amarilla.webp" // Ruta corregida
+      imagen: "Masa amarilla.webp" // Ruta corregida
     },
     {
       nombre: "Masa de yuca",
       precio: 3000,
       descripcion: "1.25 libras de masa de yuca lista para usar.",
       categoria: "Masas",
-      imagen: "img/Masa yuca.png" // Ruta corregida
+      imagen: "Masa yuca.png" // Ruta corregida
     },
     {
       nombre: "Agua de maíz (1.5L)",
       precio: 1500,
       descripcion: "Bebida de maíz lista para servir.",
       categoria: "Líquidos",
-      imagen: "img/agua-maiz-1.5.png" // Ruta corregida
+      imagen: "agua-maiz-1.5.png" // Ruta corregida
     },
     {
       nombre: "Agua de maíz (2L)",
       precio: 2000,
       descripcion: "Versión de 2 litros de agua de maíz.",
       categoria: "Líquidos",
-      imagen: "img/agua-maiz-2.png" // Ruta corregida
+      imagen: "agua-maiz-2.png" // Ruta corregida
     },
     {
       nombre: "Agua de maíz (3L)",
       precio: 3000,
       descripcion: "Botella familiar de 3 litros de agua de maíz.",
       categoria: "Líquidos",
-      imagen: "img/agua-maiz-3.png" // Ruta corregida
+      imagen: "agua-maiz-3.png" // Ruta corregida
     },
     {
       nombre: "Suero (0.5L)",
       precio: 6000,
       descripcion: "Suero costeño artesanal de 0.5 litros.",
       categoria: "Líquidos",
-      imagen: "img/Suero2.0.jpg" // Ruta corregida
+      imagen: "Suero2.0.jpg" // Ruta corregida
     },
     {
       nombre: "Empanadas (queso)",
       precio: 15000,
       descripcion: "10 unidades de empanadas rellenas de queso.",
       categoria: "Bandejas",
-      imagen: "img/empanadas-queso.png" // Ruta corregida
+      imagen: "empanadas-queso.png" // Ruta corregida
     },
     {
       nombre: "Empanadas (pollo)",
       precio: 15000,
       descripcion: "10 unidades de empanadas rellenas de pollo.",
       categoria: "Bandejas",
-      imagen: "img/empanadas-pollo.jpeg" // Ruta corregida
+      imagen: "empanadas-pollo.jpeg" // Ruta corregida
     },
     {
       nombre: "Empanadas (Carne Molida)",
       precio: 15000,
       descripcion: "10 unidades de empanadas rellenas de Carne Molida.",
       categoria: "Bandejas",
-      imagen: "img/empanadas-carnemolida.webp" // Ruta corregida
+      imagen: "empanadas-carnemolida.webp" // Ruta corregida
     },
     {
       nombre: "Carimañolas (queso)",
       precio: 15000,
       descripcion: "10 unidades de carimañolas con queso.",
       categoria: "Bandejas",
-      imagen: "img/carimañolas-queso.jpeg" // Ruta corregida
+      imagen: "carimañolas-queso.jpeg" // Ruta corregida
     },
     {
       nombre: "Carimañolas (pollo)",
       precio: 15000,
       descripcion: "10 unidades de carimañolas con pollo.",
       categoria: "Bandejas",
-      imagen: "img/carimañolas-pollo.jpg" // Ruta corregida
+      imagen: "carimañolas-pollo.jpg" // Ruta corregida
     },
     {
       nombre: "Carimañolas (Carne Molida)",
       precio: 15000,
       descripcion: "10 unidades de carimañolas con Carne Molida.",
       categoria: "Bandejas",
-      imagen: "img/carimañolas-carnemolida.jpeg" // Ruta corregida
+      imagen: "carimañolas-carnemolida.jpeg" // Ruta corregida
     }
   ];
 
