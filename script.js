@@ -5,56 +5,56 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 2500,
       descripcion: "1.5 libras de masa de maíz blanco.",
       categoria: "Masas",
-      imagen: "imagenes/Masa blanca.jpeg"
+      imagen: "Masa blanca.jpeg"
     },
     {
       nombre: "Masa de maíz amarillo",
       precio: 2500,
       descripcion: "1.5 libras de masa de maíz amarillo.",
       categoria: "Masas",
-      imagen: "imagenes/Masa amarilla.webp"
+      imagen: "Masa amarilla.webp"
     },
     {
       nombre: "Masa de yuca",
       precio: 3000,
       descripcion: "1.25 libras de masa de yuca lista para usar.",
       categoria: "Masas",
-      imagen: "imagenes/Masa yuca.png"
+      imagen: "Masa yuca.png"
     },
     {
       nombre: "Agua de maíz (1.5L)",
       precio: 1500,
       descripcion: "Bebida de maíz lista para servir.",
       categoria: "Líquidos",
-      imagen: "imagenes/agua-maiz-1.5.png"
+      imagen: "agua-maiz-1.5.png"
     },
     {
       nombre: "Agua de maíz (2L)",
       precio: 2000,
       descripcion: "Versión de 2 litros de agua de maíz.",
       categoria: "Líquidos",
-      imagen: "imagenes/agua-maiz-2.png"
+      imagen: "agua-maiz-2.png"
     },
     {
       nombre: "Agua de maíz (3L)",
       precio: 3000,
       descripcion: "Botella familiar de 3 litros de agua de maíz.",
       categoria: "Líquidos",
-      imagen: "imagenes/agua-maiz-3.png"
+      imagen: "agua-maiz-3.png"
     },
     {
       nombre: "Suero (0.5L)",
       precio: 6000,
       descripcion: "Suero costeño artesanal de 0.5 litros.",
       categoria: "Líquidos",
-      imagen: "imagenes/suero.jpeg"
+      imagen: "suero2.0.jpeg"
     },
     {
       nombre: "Empanadas (queso)",
       precio: 15000,
       descripcion: "10 unidades de empanadas rellenas de queso.",
       categoria: "Bandejas",
-      imagen: "imagenes/empanadas-queso.png"
+      imagen: "empanadas-queso.png"
     },
     {
       nombre: "Empanadas (pollo)",
@@ -68,14 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 15000,
       descripcion: "10 unidades de empanadas rellenas de Carne Molida.",
       categoria: "Bandejas",
-      imagen: "imagenes/empanadas-carnemolida.webp"
+      imagen: "empanadas-carnemolida.webp"
     },
     {
       nombre: "Carimañolas (queso)",
       precio: 15000,
       descripcion: "10 unidades de carimañolas con queso.",
       categoria: "Bandejas",
-      imagen: "imagenes/carimañolas-queso.jpeg"
+      imagen: "carimañolas-queso.jpeg"
     },
     {
       nombre: "Carimañolas (pollo)",
