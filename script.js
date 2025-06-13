@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       precio: 6000,
       descripcion: "Suero costeño artesanal de 0.5 litros.",
       categoria: "Líquidos",
-      imagen: "Suero2.0.jpeg"
+      imagen: "Suero2.0.jpg"
     },
     {
       nombre: "Empanadas (queso)",
